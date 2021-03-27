@@ -27,7 +27,7 @@ From 1992 to 2020.
 By glace at dataset, it can be seen that it has many null values, and it has many categories for nominal variables. Few attributes have multiple values with same meaning, for example the length of sentence attributes has 3 different values which means exactly the same, like ‘5-10 years’, ‘5 years to <10 years’ and ‘5-10 Years’, in this case all 3 values had been replayed with single value ‘5 to 10 years’. (Refer to figure 1)
 
 <p align="center">
-  <img src="images/fig1.png" width="400"/>
+  <img src="Images/fig1.png" width="400"/>
   <br>
     <em>Figure 1: the values transformation for length of sentenced attribute</em>
 </p>
@@ -41,7 +41,7 @@ Similar replacement was being done to employed as and other values of length of 
 As displayed the in figure 2, on can selected different filters and the data displayed in the map, 2 graphs and 1 table will change accordingly. The user can also select the any country and it will filter the data for other graphs and table. The user can also filter the data by clicking on any bar of ‘By their type of death’ graph.
 
 <p align="center">
-  <img src="images/fig2.png" width="550"/>
+  <img src="Images/fig2.png" width="550"/>
   <br>
     <em>Figure 2: The Dashboard</em>
 </p>
@@ -49,7 +49,7 @@ As displayed the in figure 2, on can selected different filters and the data dis
 As it can be seen in the Figure 3, On hover of any country from the graph, the tooltip will pop up containing the information about the journalist who being tortured and threatened in that selected country. It also contains the list of prisons located in the country with the count of journalist in it. The tooltip data will get filter if user has selected any other filters.
 
 <p align="center">
-  <img src="images/fig3.png" width="300" height="300"/>
+  <img src="Images/fig3.png" width="300" height="300"/>
   <br>
     <em>Figure 3: On hover over any country</em>
 </p>
@@ -58,7 +58,7 @@ As it can be seen in the Figure 3, On hover of any country from the graph, the t
 As it can be seen in the Figure 4, On hover over the any bar of ‘By length of sentences’ graph, the tooltip will display with the count of journalist with their charges they have been sentenced for. The data will change according to any selection (filter) chosen by the user.
 
 <p align="center">
-  <img src="images/fig4.png" width="300" height="300"/>
+  <img src="Images/fig4.png" width="300" height="300"/>
   <br>
     <em>Figure 4: on hover over the bar of ‘By length of sentence’ graph</em>
 </p>
@@ -66,7 +66,7 @@ As it can be seen in the Figure 4, On hover over the any bar of ‘By length of 
 The project has one addition feature, which makes user to clear out all selection of filter by one click (button click). As displayed in the figure 5, when the button shows the tooltip ‘Reset all filters’ user can click on it and map, 2 graphs and table will be changed to its original state and all filters will be checked again.
 
 <p align="center">
-  <img src="images/fig5.png" width="250" height="150"/>
+  <img src="Images/fig5.png" width="250" height="150"/>
   <br>
     <em>Figure 5: The rest filter button</em>
 </p>
@@ -74,7 +74,7 @@ The project has one addition feature, which makes user to clear out all selectio
 User can also make the multiple selection such as clicking on any country (Brazil) and then selecting the bar called ‘Murder’ as type of death and gender male of ‘type of death’, the dashboard data will change accordingly (refer to figure 6). By clicking on any data of ‘coverage’ table and ‘by length of sentence’ graph will not change the data of the dashboard (graph and table does not have any filtration to select).
 
 <p align="center">
-  <img src="images/fig6.png" width="500" />
+  <img src="Images/fig6.png" width="500" />
   <br>
     <em>Figure 6: The state of the dashboard after click on any bar of ‘By their type of death’ graph and any country.</em>
 </p>
@@ -86,7 +86,7 @@ User can also make the multiple selection such as clicking on any country (Brazi
 The question like ‘How many journalists were being tortured and threatened and in which all prisons by country by gender’ can be answered. In figure 7, in the Somalia country there are 68 local journalists were being killed or imprisoned, in that 1 male journalist has been tortured and 12 male Journalists have been threatened. A 67 male journalists were being kept at unknow prisons, whereas 1 male journalist has been kept in prison location called ‘Hargeisa’.
 
 <p align="center">
-  <img src="images/fig7.png" width="500" />
+  <img src="Images/fig7.png" width="500" />
   <br>
     <em>Figure 7: View of dashboard on multiple filter selection.</em>
 </p>
@@ -94,7 +94,7 @@ The question like ‘How many journalists were being tortured and threatened and
 Other questions such as what the charges for particular length of sentence in the any country were. As it can see in figure 8, the graph has displayed the 164 male journalists who has been sentenced for 1 to <5 years and their changes were ‘anti- state’ (137 journalists), ‘retaliatory’ (21 journalists), ‘defamation’ (1 journalist), ‘false news’ (1 journalist), and no charges (4 journalists).
 
 <p align="center">
-  <img src="images/fig8.png" width="500" />
+  <img src="Images/fig8.png" width="500" />
   <br>
     <em>Figure 8: Details of journalist’s charges of 1 to <5 years of sentence in China</em>
 </p>
